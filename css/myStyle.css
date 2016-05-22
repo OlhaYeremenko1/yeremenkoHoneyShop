@@ -1,0 +1,252 @@
+*{
+
+font-family:Zapf Chancery, cursive;
+}
+.myclass{/*
+min-width:450px;*/
+}    
+       #footer {
+                 background:#ccc;
+                 height:75px;
+                 bottom:0px;
+                 width:100%;
+                 background-color: #514F4F;
+                 text-align: center;
+                 color: azure; 
+                 padding-top: 1.25%;
+				 text-align:justify;
+           }
+      #content{
+	  text-align:justify;
+      min-height:400px;
+      margin-top: 1.3%; 
+      border-radius: 20px 20px 0 0; 
+      margin-bottom:1.8%;
+      padding-bottom:1.8%  ;  
+      }
+      #header{
+      padding-top:2%;        
+      }
+.nav-tabs {
+ border-bottom: 0px solid #ddd; 
+}
+
+
+
+.container>button{
+  background-color: #373636;
+
+
+}
+.container>button>span{
+  background-color: white;
+}
+
+      #h_menu{
+
+		   text-decoration-color: black;
+          padding-top: 10px;
+          position: relative;
+          top: 0px;
+          background-color: #514F4F;
+    
+          border-bottom: 10px;
+		  border-radius: 0px 0px 20px 20px;    
+		  text-align:justify;
+      
+      }
+	  #responce-menu{
+	   z-index: 2;
+	  }
+   .brand {
+   text-decoration:none;
+   font-weight:900;
+   font-size:1.4em;
+   color:white;
+
+   }
+  .count{
+   border: 1px solid #cccccc; //цвет рамки
+   border-radius: 3px; //закругление углов (общее)
+   -webkit-border-radius: 3px; //закругление углов (Google Chrome)
+   -moz-border-radius: 3px; //закругление углов (FireFox)
+   -khtml-border-radius: 3px; //закругление углов (Safari)
+   outline: none; // удаляет обводку в браузерах 
+   height: 12px; // высота на свое усмотрение
+   width: 12px; // ширина на свое усмотрение
+   
+   }
+   #addbtn:visited  {
+   color:red;
+   }
+
+td b{
+  font-weight: bold;
+  margin-left: 70%;
+  font-size: x-large;
+}
+caption h1{
+  text-shadow: 2px 2px darkgray;
+  font-size: xx-large;
+
+}
+.count{
+    margin-top:5px;
+    max-width: 90px;
+    display: block;
+    border-radius: 10px;
+
+}
+ td img:active{
+
+-webkit-transform:scale(4.8); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(4.8); /*Mozilla scale version*/
+-o-transform:scale(4.8); /*Opera scale version*/
+ box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+opacity: 1;     
+} 
+.about img:hover {
+
+-webkit-transform:scale(2.8); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(2.8); /*Mozilla scale version*/
+-o-transform:scale(2.8); /*Opera scale version*/
+ box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+position:absolute;
+margin-left:200px;
+margin-top:-100px;
+opacity: 1;     
+}
+
+.about  img{
+
+-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(0.8); /*Mozilla scale version*/
+-o-transform:scale(0.8); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 1; /*initial opacity of images*/
+margin: 0 10px 5px 0; /*margin between images*/
+}
+
+td .price .oprice{
+max-width: 40px;
+}
+
+.formmodal{
+    position: fixed;
+    z-index: 99;
+    margin-top: -550px;
+    margin-left: 200px;
+    width: 600px;
+    height: 450px;
+    padding: 3%;
+    background-color: #FAFAFA;
+    display: none;
+    border-radius: 20px;
+    outline: none;   
+    box-shadow: 3px 3px 0 darkgrey;
+}
+
+.formmodal .buttons{
+margin-left: 20px;
+    
+}
+.resept h1{
+color:#BD3200;
+    padding-left: 25%;
+font-family:Zapf Chancery, cursive;
+}
+.resept h3
+{
+color: #FFCD00;
+font: bold; 
+    
+font-family:Zapf Chancery, cursive;
+}
+.resept {
+padding: 2%;
+}
+.resept .res1{
+
+    border-radius: 20px;
+    outline: none;   
+   
+    padding: 2%;
+}
+.resept .res1:hover{
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    outline: none;   
+    box-shadow: 1px 1px 0 darkgrey;
+    padding: 2%;
+    size:1.3em;
+    font-size: 1.2em;
+    
+}
+.resept .res1:hover>button{
+margin-left: 90%;
+visibility: visible;     
+}
+.resept .res1>button{
+ margin-left: 90%;
+ visibility: hidden;     
+}
+
+#myTab li, a{
+color: #FFCD00;
+font-weight: 900;
+font-size: 1.2em;
+font-family:Zapf Chancery, cursive; font: bold;
+text-decoration: none;
+}
+
+ #h_menu a{
+color: #FFCD00;
+font-weight: 900;
+font-size: 1.2em;
+font-family:Zapf Chancery, cursive; font: bold;
+text-decoration: none;
+
+}
+
+
+ #h_menu a:hover, a:active, a:focus{
+color: black;
+}
+ #h_menu a:active{
+font-weight: 900;
+font-size: 1.2em;
+font-family:Zapf Chancery, cursive; font: bold;
+text-decoration: none;
+color: black;
+font-weight: 900;
+text-decoration: none;
+}
+
+.about img{
+margin-right:15px;
+}
+/
+
+.navbar-collapse {
+ padding-top: 5px; 
+  padding-right: 0px; 
+  padding-left: 0px;
+
+}
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+
+
+
+
+
+      
